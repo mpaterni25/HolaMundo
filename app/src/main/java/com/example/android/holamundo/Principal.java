@@ -28,7 +28,7 @@ public class Principal extends AppCompatActivity {
         String aux;
         aux = cajaNombre.getText().toString();
 
-        cajaMensaje.setText("Hola "+aux);
+        cajaMensaje.setText("Hola " +aux);
     }
 
 }
