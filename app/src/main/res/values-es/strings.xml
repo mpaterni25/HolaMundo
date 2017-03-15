@@ -4,4 +4,6 @@
     <string name="Titulo">Aplicacion Para Saludar</string>
     <string name="Saludar">Hola</string>
     <string name="Saluda"></string>
+    <string name="apellido">Apellido</string>
+    <string name="Nombre">Nombre</string>
 </resources>

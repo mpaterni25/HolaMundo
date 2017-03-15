@@ -4,4 +4,6 @@
     <string name="Saluda">Say Hi</string>
     <string name="Saludar">Say Hi</string>
     <string name="Titulo">Hellow</string>
+    <string name="apellido">Last Name</string>
+    <string name="Nombre">Name</string>
 </resources>

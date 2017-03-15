@@ -47,7 +47,18 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/TxtNombre"
-            android:gravity="center_vertical|center_horizontal" />
+            android:gravity="center_vertical|center_horizontal"
+            android:hint="@string/Nombre" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtApellido"
+            android:hint="@string/apellido"
+            android:singleLine="false"
+            android:textAlignment="center" />
 
         <Button
             android:layout_width="match_parent"
@@ -56,14 +67,6 @@
             android:text="@string/Saludar"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:onClick="Saludar" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/lblView"
-            android:layout_weight="0.08"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textSize="18sp" />
 
     </LinearLayout>
 </RelativeLayout>
